@@ -7,7 +7,7 @@
 *           1. Prompts the user to select a function code
 *           2. Takes input parameters if needed
 *           3. Sends a formatted request to the kernel process
-*           4. Receives and prints the kernel’s response
+*           4. Receives and prints the kernelâ€™s response
 */
 
 #include <windows.h>
@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define PIPE_NAME TEXT("\\\\.\\pipe\\millsb_A2_syscall_pipe")  // Define the name of the named pipe
+#define PIPE_NAME TEXT("\\\\.\\pipe\\syscall_pipe")  // Define the name of the named pipe
 #define BUFFER_SIZE 1024  // Define the buffer size for messages
 
 int main() {
