@@ -98,6 +98,22 @@ This enables:
 
 ---
 
+## How to Compile
+
+### Server (Kernel)
+
+```bash
+cl syscalls_kernel.c
+```
+
+### Client (User)
+
+```bash
+cl syscalls_user.c
+```
+
+---
+
 ## Author
 
 Brady Mills
