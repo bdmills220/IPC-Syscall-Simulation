@@ -16,7 +16,7 @@
 #include <string.h>
 #include <time.h>
 
-#define PIPE_NAME TEXT("\\\\.\\pipe\\millsb_A2_syscall_pipe")  // Define the name of the named pipe
+#define PIPE_NAME TEXT("\\\\.\\pipe\\syscall_pipe")  // Define the name of the named pipe
 #define BUFFER_SIZE 1024  // Define the buffer size for messages
 
 // Define the function pointer type for the jump table
